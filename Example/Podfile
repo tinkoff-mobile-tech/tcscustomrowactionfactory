@@ -1,0 +1,12 @@
+use_frameworks!
+platform :ios, '9.0'
+
+target 'TCSCustomRowActionFactory_Example' do
+  pod 'TCSCustomRowActionFactory', :path => '../'
+
+  target 'TCSCustomRowActionFactory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
