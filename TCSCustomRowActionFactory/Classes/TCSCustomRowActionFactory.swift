@@ -43,7 +43,7 @@ public class TCSCustomRowActionFactory {
     private static let placeholderSymbolWidth: CGFloat = {
         let flt_max = CGFloat.greatestFiniteMagnitude
         let maxSize = CGSize(width: flt_max, height: flt_max)
-        let attributes = [NSAttributedStringKey.font : UIFont.systemFont(ofSize: UIFont.systemFontSize)]
+        let attributes = [NSAttributedString.Key.font : UIFont.systemFont(ofSize: UIFont.systemFontSize)]
         let boundingRect = Constants.placeholderSymbol.boundingRect(with: maxSize,
                                                                     options: .usesLineFragmentOrigin,
                                                                     attributes: attributes,
@@ -130,7 +130,7 @@ public class TCSCustomRowActionFactory {
         self.convertedImage = img
     }
     
-    public func setupForCell(withTitle title: String, image: UIImage, size: CGSize, backgroundColor: UIColor, titleAttributes: [NSAttributedStringKey : Any]? = nil, contentInsets: UIEdgeInsets? = nil) {
+    public func setupForCell(withTitle title: String, image: UIImage, size: CGSize, backgroundColor: UIColor, titleAttributes: [NSAttributedString.Key : Any]? = nil, contentInsets: UIEdgeInsets? = nil) {
         defer {
             UIGraphicsEndImageContext()
         }
@@ -252,7 +252,7 @@ public class TCSCustomRowActionFactory {
     private func textWidth(for text: String) -> CGFloat {
         let flt_max = CGFloat.greatestFiniteMagnitude
         let maxSize = CGSize(width: flt_max, height: flt_max)
-        let attributes = [NSAttributedStringKey.font : UIFont.systemFont(ofSize: UIFont.buttonFontSize)]
+        let attributes = [NSAttributedString.Key.font : UIFont.systemFont(ofSize: UIFont.buttonFontSize)]
         let boundingRect = text.boundingRect(with: maxSize,
                                              options: .usesLineFragmentOrigin,
                                              attributes: attributes,

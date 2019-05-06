@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/TinkoffCreditSystems/tcscustomrowactionfactory.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-  s.swift_version = '4.1'
+  s.swift_version = '4.2'
 
   s.source_files = 'TCSCustomRowActionFactory/Classes/**/*.swift'
 

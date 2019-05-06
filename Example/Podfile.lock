@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TCSCustomRowActionFactory: 6281cc004ead1d4c5798f54b1ad012cd8be6e8f8
+  TCSCustomRowActionFactory: a9dc3b559d72c985ff9a70bc1083f2df41cb8bcc
 
 PODFILE CHECKSUM: 0fd78c06551ed82e21aeee7555b03967c073ece4
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
