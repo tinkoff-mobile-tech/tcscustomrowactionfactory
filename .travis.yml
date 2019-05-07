@@ -12,4 +12,4 @@ before_install:
 - pod install --project-directory=Example
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/TCSCustomRowActionFactory.xcworkspace -scheme TCSCustomRowActionFactory-Example -sdk iphonesimulator10.3 ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+- pod lib lint --verbose
