@@ -4,7 +4,9 @@
 
 osx_image: xcode10.1
 language: swift
-cache: cocoapods
+xcode_workspace: TCSCustomRowActionFactory.xcworkspace
+xcode_scheme: TCSCustomRowActionFactory
+xcode_sdk: iphonesimulator10.3
 podfile: Example/Podfile
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
