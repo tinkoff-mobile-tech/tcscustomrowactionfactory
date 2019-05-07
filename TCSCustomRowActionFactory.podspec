@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TCSCustomRowActionFactory'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'TCSCustomRowActionFactory - universal solution for swipe actions'
   s.description      = 'TCSCustomRowActionFactory allows you to setup the swipe actions for cells in a table view in any way using UIView and other convenient methods'
 
